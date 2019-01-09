@@ -1,13 +1,13 @@
 package org.fasttrackit;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Add adding = new Add();
+        Minus minus = new Minus();
+        int total = adding.addingNumbers(4,7);
+        int subtract = minus.minusNumbers(6,3);
     }
 }
