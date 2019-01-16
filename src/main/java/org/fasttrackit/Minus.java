@@ -8,4 +8,8 @@ public class Minus {
         System.out.println(x+" - "+y+" = "+total);
         return(total);
     }
+
+    public double minusNumbers(int x){
+        return minusNumbers(x,5);
+    }
 }

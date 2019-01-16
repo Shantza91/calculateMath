@@ -7,7 +7,10 @@ public class App
     {
         Add adding = new Add();
         Minus minus = new Minus();
-        int total = adding.addingNumbers(4,7);
-        int subtract = minus.minusNumbers(6,3);
+//        int total = adding.addingNumbers(4,7);
+//        int subtract = minus.minusNumbers(6,3);
+
+        adding.addingNumbers(9);
+        minus.minusNumbers(3);
     }
 }

@@ -10,6 +10,7 @@ public class Add {
         System.out.println(x+" + "+y+" = "+total);
         return(total);
     }
-
-
+    public double addingNumbers(int x){
+        return addingNumbers(x, 2);
+    }
 }
